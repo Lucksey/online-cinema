@@ -56,7 +56,7 @@ export class AuthService {
     });
 
     const tokens = await this.issueTokenPair(String(newUser._id))
-    newUser.save()
+
     return {
       user: this.returnUserFieslds(newUser),
       ...tokens,
