@@ -16,4 +16,5 @@ export class UserModel extends TimeStamps {
   @prop({ default: [] })
   favourites?: [];
 
+ // find метод?
 }
