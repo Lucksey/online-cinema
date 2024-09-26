@@ -39,7 +39,7 @@ export class ActorService {
         from: 'Movie',
         foreignField: 'actors',
         localField: '_id',
-        as: 'movies',
+        as: 'movies'
       })
       .addFields({
         countMovies: {
